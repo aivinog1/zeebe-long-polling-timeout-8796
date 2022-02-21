@@ -17,6 +17,8 @@ This repository contains a simple example of how to write a test for Zeebe. You 
 
 4) Share your repository in the [forum](https://forum.zeebe.io/), or as part of an [issue](https://github.com/zeebe-io/zeebe/issues).
 
+P.S. The test is failing at my machine (MBP 2019 16-inch, 6 Cores I7 2.6 GHz, 16 GB RAM, Docker: 6 CPUs, 6 GB RAM, SWAP 1GB) after approximately 10 minutes. When I change `ZEEBE_GATEWAY_LONGPOLLING_ENABLED` to true the test isn't fall after 2 hours.
+
 ## Code of Conduct
 
 This project adheres to the Contributor Covenant [Code of
